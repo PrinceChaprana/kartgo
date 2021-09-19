@@ -1,0 +1,65 @@
+.LoginBoxContainer{
+	position:relative;
+	width:600px;
+	height:700px;
+	left:500px;
+	top:50px;
+	background-color:white;
+	border-radius:15px;
+}
+.loginText{
+	text-align:center;
+	display:block;
+	padding-top:130px;
+	padding-bottom:50px;
+	font-size:50px;
+	font-family: 'Urbanist', sans-serif;	
+}
+.username ,.password {
+	padding-left:40px;	
+	font-size:25px;
+	margin-bottom:15px;
+	font-family: 'Urbanist', sans-serif;	
+}
+.username ,.password b{
+	display:block;
+	margin-bottom:15px;
+}
+.username input[type=text]{	
+	display:block;
+	width:500px;
+	height:60px;
+	padding:15px 10px;
+	margin-bottom:15px;
+}
+.password input[type=password]{	
+	display:block;
+	width:500px;
+	height:60px;
+	padding:15px 10px;
+	margin-bottom:15px;
+}
+#ShowPassword{
+	padding-left:40px;	
+	font-family: 'Urbanist', sans-serif;	
+	margin-bottom:15px;
+}
+#SignInButton{
+	margin-left: 40px;
+	margin-right:60px;
+	padding:15px 0px;
+	font-family: 'Urbanist', sans-serif;	
+	margin-bottom:15px;
+	text-align:center;
+	background-color:#4EC9DF;
+	font-size:30px;
+	color:white;
+}
+#forgot,#signup{
+	padding-left:40px;	
+	font-size:15px;
+	font-family: 'Urbanist', sans-serif;		
+}
+#fUandP,#SignUpC{
+	color:#4EC9DF;
+}
